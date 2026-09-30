@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Portfolio | Yosua Vincencius</title>
+
+    <!-- LOGO / FAVICON -->
+    <link rel="icon" type="image/jpeg" href="assets/logo.jpg" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <!-- CSS LOGO -->
+    <style>
+      .logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: 700;
+      }
+
+      .logo img {
+        width: 45px;
+        height: 45px;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+
+      .logo span {
+        color: #00aaff;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- ================= NAVBAR ================= -->
+    <header>
+      <nav class="navbar">
+        <!-- LOGO KAMU -->
+        <a href="#home" class="logo">
+          <img src="assets/logo.jpg" alt="Logo Yosua Vincencius" />
+          <span>Portfolio.</span>
+        </a>
+
+        <!-- MENU -->
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <!-- MENU MOBILE -->
+        <button class="menu-btn" id="menuBtn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <!-- ================= HOME ================= -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <span class="hero-subtitle"></span>
+
+        <h1>
+          <span>Yosua Vincencius</span>
+        </h1>
+
+        <h2>Web Developer & Designer</h2>
+
+        <p class="hero-description">
+          Saya membuat website dan game sebagai bagian dari project dan
+          pengembangan kemampuan saya di bidang teknologi.
+          .
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary"> Lihat Project </a>
+
+          <a href="#contact" class="btn secondary"> Hubungi Saya </a>
+        </div>
+
+        <!-- SOCIAL MEDIA -->
+        <div class="social-icons">
+          <a href="#" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+
+          <a href="#" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+
+          <a href="#" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- FOTO PROFIL -->
+      <div class="hero-image">
+        <div class="image-circle">
+          <img src="assets/hipus.jpg" alt="Foto Profil Yosua Vincencius" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="section" id="about">
+      <div class="section-title">
+        <p>ABOUT ME</p>
+
+        <h2>Tentang Saya</h2>
+      </div>
+
+      <div class="about-container">
+        <!-- FOTO -->
+        <div class="about-image">
+          <img src="assets/hipus.jpg" alt="Foto Yosua Vincencius" />
+        </div>
+
+        <!-- TENTANG SAYA -->
+        <div class="about-text">
+          <h3>
+            Saya adalah seorang
+            <span>Web Developer</span>
+          </h3>
+
+          <p>
+            Perkenalkan nama saya Yosua Vincencius. Saya memiliki ketertarikan
+            dalam dunia teknologi, programming, dan desain website.
+          </p>
+
+          <p>
+            Saya senang membuat website yang sederhana, modern, cepat, dan mudah
+            digunakan.
+          </p>
+
+          <!-- DATA DIRI -->
+          <div class="about-info">
+            <div>
+              <strong>Nama</strong>
+              <span>Yosua Vincencius</span>
+            </div>
+
+            <div>
+              <strong>Email</strong>
+              <span>vincenciusy@gmail.com</span>
+            </div>
+
+            <div>
+              <strong>Lokasi</strong>
+              <span>Parungkuda perum bojong kokosan</span>
+            </div>
+
+            <div>
+              <strong>Status</strong>
+              <span>Student / Freelancer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section class="section skills-section" id="skills">
+      <div class="section-title">
+        <p>MY SKILLS</p>
+
+        <h2>Keahlian Saya</h2>
+      </div>
+
+      <div class="skills-container">
+        <!-- HTML -->
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fab fa-html5"></i>
+          </div>
+
+          <h3>HTML</h3>
+
+          <p>Membuat struktur website yang semantik dan terstruktur.</p>
+
+          <div class="progress">
+            <span style="width: 100%"></span>
+          </div>
+
+          <small>100%</small>
+        </div>
+
+        <!-- CSS -->
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fab fa-css3-alt"></i>
+          </div>
+
+          <h3>CSS</h3>
+
+          <p>Membuat desain website modern dan responsive.</p>
+
+          <div class="progress">
+            <span style="width: 90%"></span>
+          </div>
+
+          <small>90%</small>
+        </div>
+
+        <!-- JAVASCRIPT -->
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fab fa-js"></i>
+          </div>
+
+          <h3>JavaScript</h3>
+
+          <p>Membuat website menjadi interaktif dan dinamis.</p>
+
+          <div class="progress">
+            <span style="width: 90%"></span>
+          </div>
+
+          <small>90%</small>
+        </div>
+
+        <!-- PHP -->
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fab fa-php"></i>
+          </div>
+
+          <h3>PHP</h3>
+
+          <p>Membuat sistem website menggunakan backend.</p>
+
+          <div class="progress">
+            <span style="width: 95%"></span>
+          </div>
+
+          <small>95%</small>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section class="section" id="projects">
+      <div class="section-title">
+        <p>MY WORK</p>
+
+        <h2>Project Saya</h2>
+      </div>
+
+      <div class="projects-container">
+        <!-- PROJECT 1 -->
+        <div class="project-card">
+          <img src="assets/project.jpg" alt="Project 1" />
+
+          <div class="project-content">
+            <span>Website</span>
+
+            <h3>Toko Buku</h3>
+
+            <p>
+              Website toko buku ini saya menjual berbagai jenis buku
+              komik,novel,dan buku coddingan dengan desain modern dan
+              responsive.
+            </p>
+
+            <a href="#" class="project-link">
+              Lihat Project
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- PROJECT 2 -->
+        <div class="project-card">
+          <img src="assets/game.jpg" alt="Project 2" />
+
+          <div class="project-content">
+            <span>Web App</span>
+
+            <h3>game petualangan christmas</h3>
+
+            <p>saya membuat game dengan tema petualangan christmas ini tuh tujuan game nya mengambil kado besar dan harus melawan bos robot dan anak buah nya.</p>
+
+            <a href="#" class="project-link">
+              Lihat Project
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+       
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="section contact-section" id="contact">
+      <div class="section-title">
+        <p>CONTACT</p>
+
+        <h2>Hubungi Saya</h2>
+      </div>
+
+      <div class="contact-container">
+        <!-- CONTACT INFO -->
+        <div class="contact-info">
+          <h3>Mari bekerja sama!</h3>
+
+          <p>
+            Jika kamu memiliki project atau ingin berdiskusi, silakan hubungi
+            saya.
+          </p>
+
+          <!-- EMAIL -->
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+
+            <div>
+              <strong>Email</strong>
+
+              <p>vincenciusy@gmail.com</p>
+            </div>
+          </div>
+
+          <!-- WHATSAPP -->
+          <div class="contact-item">
+            <i class="fab fa-whatsapp"></i>
+
+            <div>
+              <strong>WhatsApp</strong>
+
+              <p>+62 852-8245-9579</p>
+            </div>
+          </div>
+
+          <!-- LOKASI -->
+          <div class="contact-item">
+            <i class="fas fa-location-dot"></i>
+
+            <div>
+              <strong>Lokasi</strong>
+
+              <p>Parungkuda perum bojong kokosan</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- CONTACT FORM -->
+        <form class="contact-form" id="contactForm">
+          <input type="text" placeholder="Nama" required />
+
+          <input type="email" placeholder="Email" required />
+
+          <textarea rows="6" placeholder="Pesan" required></textarea>
+
+          <button type="submit" class="btn primary">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+      <p>© 2026 Yosua Vincencius. All Rights Reserved.</p>
+
+      <a href="#home">
+        <i class="fas fa-arrow-up"></i>
+      </a>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+  </body>
+</html>
